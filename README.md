@@ -1,5 +1,5 @@
 # MLProject-Spring2019
-### Faces Do Lie: Do our facial expressions always accurately convey emotion? In this project, we evaluate this by providing a testbench for comparing Facial Emotion Recognition using Computer Vision and analysis of EEG Signals. 
+### Faces Do Lie: Do our facial expressions always accurately convey emotion? In this project, we evaluate this by providing a testbench for comparing Facial Emotion Recognition using Computer Vision and analysis of EEG Signals. We achieved an accuracy of as high as __71.87%__ in the analysis of EEG signals.
 
 The process: As Computer Vision and Deep Learning techniques advance, we are becoming increasingly reliant on them for various use cases. In the recent future, we are going to see an increase in Social Robots that interact with us through Verbal and Non Verbal Communication (NVC) means like humans do. Facial expressions are amognst the most universal NVCs, and we argue that the current state-of-art in facial expression-based emotion classification is NOT good enough for active usage in the robots of near future. 
 
@@ -29,4 +29,6 @@ Here we describe the nature and shape of the dataset used. The DEAP dataset is a
 
 
 
-
+### RESULTS
+#### EEG Classification
+We trained various classification models on the preprocessed EEG data and obtained a maximum accuracy of 71% using linear Support Vector Machine classifier. 
